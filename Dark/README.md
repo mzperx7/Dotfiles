@@ -13,5 +13,5 @@ cd MyExtension
 
 vsce package
 
-#VS Code syntax inspection
+# VS Code syntax inspection
 CTRL + SHIFT + P -> "Developer: Inspect Editor Tokens and Scopes"
