@@ -1,5 +1,5 @@
 # Dark theme for VS Code
-Dark color theme has been for C and Zig.
+Dark color theme for C and Zig.
 
 # How to install:
 code --install-extension dark-1.0.0.vsix
