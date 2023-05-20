@@ -1,0 +1,23 @@
+{
+	"name": "Dark",
+	"displayName": "Dark",
+	"description": "Dark color theme for C and Zig",
+	"publisher": "OK",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+    "license": "MIT",
+	"categories": [
+		"Themes"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark-theme.json"
+            }
+        ]
+    }
+}
