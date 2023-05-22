@@ -1,23 +1,26 @@
 {
 	"name": "Dark",
 	"displayName": "Dark",
-	"description": "Dark color theme for C and Zig",
+	"description": "Dark color theme for Zig",
 	"publisher": "OK",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.47.0"
 	},
-    "license": "MIT",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/mzperx7/Dotfiles/Dark"
+	},
 	"categories": [
 		"Themes"
 	],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dark-theme.json"
-            }
-        ]
-    }
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark-theme.json"
+			}
+		]
+	}
 }
