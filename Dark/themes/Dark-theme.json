@@ -842,7 +842,8 @@
 			"scope": [
                 "punctuation.terminator.statement.c",
                 "punctuation.separator.delimiter.c",
-                "punctuation.separator.dot-access.c"
+                "punctuation.separator.dot-access.c",
+                "punctuation.separator.parameters.c"
             ],
 			"settings": {
 				"foreground": "#dee2ea"
@@ -1013,7 +1014,7 @@
 				"keyword.control.directive.include.c"
 			],
 			"settings": {
-				"foreground": "#5f84a1"
+				"foreground": "#6c7587"
 			}
 		},
 		{
@@ -1032,7 +1033,7 @@
 				"keyword.control.directive.endif.cpp"
 			],
 			"settings": {
-				"foreground": "#adb5c5",
+				"foreground": "#6c7587",
 				"fontStyle": "bold"
 			}
 		},
