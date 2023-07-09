@@ -680,13 +680,12 @@
 		{
 			"scope": [
                 "comment",
-                "source.c punctuation.definition.comment",
+                "punctuation.definition.comment",
                 "punctuation.definition.comment.begin.c",
                 "punctuation.definition.comment.end.c",
                 "punctuation.definition.comment.begin.cpp",
                 "punctuation.definition.comment.end.cpp",
-                "punctuation.definition.comment.sql",
-                "source.zig punctuation.definition.comment"
+                "punctuation.definition.comment.sql"
             ],
             "settings": {
 				"fontStyle": "italic",
@@ -851,7 +850,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.comment",
 				"punctuation.end.definition.comment",
 				"punctuation.start.definition.comment"
 			],
