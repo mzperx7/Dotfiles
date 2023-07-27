@@ -378,8 +378,6 @@
                 "punctuation.definition.comment",
                 "punctuation.definition.comment.begin.c",
                 "punctuation.definition.comment.end.c",
-                "punctuation.definition.comment.begin.cpp",
-                "punctuation.definition.comment.end.cpp",
                 "punctuation.definition.comment.sql"
             ],
             "settings": {
@@ -397,7 +395,10 @@
 			}
 		},
 		{
-			"scope": "constant.language",
+			"scope": [
+                "constant.language",
+                "constant.regexp"
+            ],
 			"settings": {
 				"foreground": "#b3b8c2"
 			}
@@ -421,12 +422,6 @@
                 "variable.parameter",
                 "variable.other.readwrite"
 			],
-			"settings": {
-				"foreground": "#b3b8c2"
-			}
-		},
-		{
-			"scope": "constant.regexp",
 			"settings": {
 				"foreground": "#b3b8c2"
 			}
@@ -462,15 +457,18 @@
 			}
 		},
 		{
-			"scope": "invalid.deprecated",
+			"scope": [
+                "invalid.deprecated",
+                "invalid.illegal"
+            ],
 			"settings": {
 				"foreground": "#da1c02"
 			}
 		},
 		{
-			"scope": "invalid.illegal",
+			"scope": "invalid.illegal.placeholder",
 			"settings": {
-				"foreground": "#da1c02"
+				"foreground": "#d9d1a0"
 			}
 		},
 		{
@@ -526,7 +524,9 @@
 				"punctuation.definition.method-parameters",
 				"punctuation.definition.function-parameters",
 				"punctuation.definition.parameters",
-                "punctuation.definition.variable"
+                "punctuation.definition.variable",
+                "punctuation.end.definition.comment",
+				"punctuation.start.definition.comment"
 			],
 			"settings": {
 				"foreground": "#6c7d8e"
@@ -541,15 +541,6 @@
             ],
 			"settings": {
 				"foreground": "#e5e7ea"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.end.definition.comment",
-				"punctuation.start.definition.comment"
-			],
-			"settings": {
-				"foreground": "#6c7d8e"
 			}
 		},
 		{
@@ -721,7 +712,6 @@
 		},
 		{
 			"scope": [
-				"source.cpp keyword.control.directive.conditional",
 				"source.c keyword.control.directive.conditional",
 				"keyword.control.directive.endif.cpp"
 			],
@@ -731,10 +721,7 @@
 			}
 		},
 		{
-			"scope": [
-				"source.cpp punctuation.definition.directive",
-				"source.c punctuation.definition.directive"
-			],
+			"scope": "source.c punctuation.definition.directive",
 			"settings": {
 				"foreground": "#b3b8c2"
 			}
