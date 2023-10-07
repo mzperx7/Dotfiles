@@ -24,7 +24,7 @@
 		"charts.orange": "#99918a",
 		"charts.purple": "#017d8e",
 		"charts.red": "#8e1201",
-		"charts.yellow": "#d9d1a0",
+		"charts.yellow": "#d2c88e",
 		"checkbox.background": "#0e1014",
 		"checkbox.border": "#e5e7ea",
 		"checkbox.foreground": "#e5e7ea",
@@ -112,7 +112,7 @@
 		"editorOverviewRuler.modifiedForeground": "#49505e",
 		"editorOverviewRuler.rangeHighlightForeground": "#b3b8c2",
 		"editorOverviewRuler.selectionHighlightForeground": "#668dbb",
-		"editorOverviewRuler.warningForeground": "#d28c79",
+		"editorOverviewRuler.warningForeground": "#d2c88e",
 		"editorOverviewRuler.wordHighlightForeground": "#6c7d8e",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#668dbb",
 		"editorRuler.foreground": "#21252d",
@@ -253,13 +253,13 @@
 		"terminal.ansiBrightBlue": "#668dbb",
 		"terminal.ansiBrightCyan": "#017d8e",
 		"terminal.ansiBrightGreen": "#6d9a79",
-		"terminal.ansiBrightMagenta": "#d28c79",
+		"terminal.ansiBrightMagenta": "#d2c88e",
 		"terminal.ansiBrightRed": "#da1c02",
 		"terminal.ansiBrightWhite": "#e5e7ea",
-		"terminal.ansiBrightYellow": "#d9d1a0",
+		"terminal.ansiBrightYellow": "#d2c88e",
 		"terminal.ansiCyan": "#017d8e",
 		"terminal.ansiGreen": "#6d9a79",
-		"terminal.ansiMagenta": "#d28c79",
+		"terminal.ansiMagenta": "#d2c88e",
 		"terminal.ansiRed": "#8e1201",
 		"terminal.ansiWhite": "#b3b8c2",
 		"terminal.ansiYellow": "#99918a",
@@ -298,7 +298,7 @@
 		"debugIcon.stopForeground": "#da1c02",
 		"debugTokenExpression.boolean": "#e5e7ea",
 		"debugTokenExpression.error": "#da1c02",
-		"debugTokenExpression.name": "#d9d1a0",
+		"debugTokenExpression.name": "#d2c88e",
 		"debugTokenExpression.number": "#e5e7ea",
 		"debugTokenExpression.string": "#668dbb",
 		"debugTokenExpression.value": "#668dbb",
@@ -409,7 +409,7 @@
                 "keyword.constant"
             ],
 			"settings": {
-				"foreground": "#d28c79"
+				"foreground": "#d2c88e"
 			}
 		},
 		{
@@ -468,7 +468,7 @@
 		{
 			"scope": "invalid.illegal.placeholder",
 			"settings": {
-				"foreground": "#d9d1a0"
+				"foreground": "#d2c88e"
 			}
 		},
 		{
@@ -602,7 +602,7 @@
                 "string.regexp"
 			],
 			"settings": {
-				"foreground": "#d9d1a0"
+				"foreground": "#d2c88e"
 			}
 		},
         {
@@ -611,7 +611,7 @@
                 "constant.character.escape"
             ],
 			"settings": {
-				"foreground": "#d9d1a0"
+				"foreground": "#d2c88e"
 			}
 		},
 		{
