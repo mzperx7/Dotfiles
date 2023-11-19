@@ -54,6 +54,9 @@
 ;; Only y or n
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; Directories first
+(setq dired-listing-switches "-aBhl --group-directories-first")
+
 ;; CUA mode
 (cua-mode t)
 
