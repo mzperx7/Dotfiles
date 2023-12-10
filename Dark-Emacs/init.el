@@ -14,8 +14,12 @@
 (setq tooltip-mode nil)
 
 ;; Sync clipboards
-(setq select-enable-clipboard t)
-(setq select-enable-primary t)
+;; (setq select-enable-clipboard t)
+;; (setq select-enable-primary t)
+
+;; Enable windmove
+(windmove-default-keybindings)
+(windmove-default-keybindings 'meta)
 
 ;; Smooth scrolling
 (setq scroll-step 1)
@@ -40,7 +44,7 @@
 (column-number-mode 1)
 
 ;; Line numbers
-(add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(global-display-line-numbers-mode t)
 
 ;; Delete tailing white-spaces
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -69,7 +73,6 @@
 ;; Config for C
 (add-to-list 'auto-mode-alist '("\\.c\\'" . c-ts-mode))
 (load "/usr/share/emacs/site-lisp/clang-format-14/clang-format.el")
-(add-hook 'before-save-hook 'clang-format-buffer)
 
 ;; Tab line config - background behind tabs, active tab in another window, active tab, inactive tab, mousover
 (global-tab-line-mode t)
@@ -100,7 +103,9 @@
 (use-package c-ts-mode
   :ensure t
   :custom (c-ts-mode-indent-offset 4)
-  :hook (c-ts-mode . eglot-ensure))
+  :hook (c-ts-mode . eglot-ensure)
+  :config
+  (add-hook 'before-save-hook 'clang-format-buffer))
 
 ;; Load AUCTeX
 (use-package tex
