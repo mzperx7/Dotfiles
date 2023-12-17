@@ -104,8 +104,9 @@
   :ensure t
   :custom (c-ts-mode-indent-offset 4)
   :hook (c-ts-mode . eglot-ensure)
-  :config
-  (add-hook 'before-save-hook 'clang-format-buffer))
+  :bind (:map c-ts-mode-map
+              ("<f5>" . recompile))
+              ("<f6>" . 'clang-format-buffer))
 
 ;; Load AUCTeX
 (use-package tex
