@@ -99,13 +99,21 @@
     (kill-buffer (current-buffer))))
  (global-set-key (kbd "C-x k") 'volatile-kill-buffer)
 
+;; Function to find Makefile for compilation
+(defun find-and-compile ()
+  (interactive)
+  (when (locate-dominating-file default-directory "Makefile")
+  (with-temp-buffer
+    (cd (locate-dominating-file default-directory "Makefile"))
+    (compile "make -k"))))
+
 ;; Load C language grammar
 (use-package c-ts-mode
   :ensure t
   :custom (c-ts-mode-indent-offset 4)
   :hook (c-ts-mode . eglot-ensure)
   :bind (:map c-ts-mode-map
-              ("<f5>" . recompile))
+              ("<f5>" . 'find-and-compile))
               ("<f6>" . 'clang-format-buffer))
 
 ;; Load AUCTeX
