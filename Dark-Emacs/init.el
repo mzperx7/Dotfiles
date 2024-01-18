@@ -2,7 +2,7 @@
 (load-theme 'dark-emacs :no-confirm)
 
 ;; Load font
-(add-to-list 'default-frame-alist '(font . "Iosevka ss04-18"))
+(add-to-list 'default-frame-alist '(font . "Iosevka ss04-19"))
 
 ;; No bells
 (setq ring-bell-function 'ignore)
@@ -12,10 +12,6 @@
 
 ;; No tooltips
 (setq tooltip-mode nil)
-
-;; Sync clipboards
-;; (setq select-enable-clipboard t)
-;; (setq select-enable-primary t)
 
 ;; Enable windmove
 (windmove-default-keybindings)
@@ -116,11 +112,6 @@
               ("<f5>" . 'find-and-compile))
               ("<f6>" . 'clang-format-buffer))
 
-;; Load AUCTeX
-(use-package tex
-  :ensure auctex
-  :defer t)
-
 ;; Load Company
 (use-package company
   :ensure t
@@ -138,5 +129,4 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(dark-emacs))
  '(custom-safe-themes
-   '("ba4ab079778624e2eadbdc5d9345e6ada531dc3febeb24d257e6d31d5ed02577" default))
- '(package-selected-packages '(compat company auctex)))
+   '("ba4ab079778624e2eadbdc5d9345e6ada531dc3febeb24d257e6d31d5ed02577" default)))
