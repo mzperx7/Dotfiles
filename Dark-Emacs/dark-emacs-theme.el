@@ -78,7 +78,7 @@
    `(highlight ((t (:background ,ok-bg-3))))
 
    ;; Line numbers
-   `(line-number ((t (:inherit default :foreground ,ok-bg-3))))
+   `(line-number ((t (:inherit default :foreground ,ok-bg-2))))
    `(line-number-current-line ((t (:inherit line-number :foreground ,ok-fg-3))))
 
    ;; Mode Line

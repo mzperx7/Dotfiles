@@ -119,7 +119,6 @@
   :config
   (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 2))
-;;  (company-tng-configure-default))
 
 ;; Custom variables
 (custom-set-variables
@@ -129,4 +128,11 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(dark-emacs))
  '(custom-safe-themes
-   '("ba4ab079778624e2eadbdc5d9345e6ada531dc3febeb24d257e6d31d5ed02577" default)))
+   '("ba4ab079778624e2eadbdc5d9345e6ada531dc3febeb24d257e6d31d5ed02577" default))
+ '(package-selected-packages '(compat company auctex)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
