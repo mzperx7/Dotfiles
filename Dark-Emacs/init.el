@@ -21,7 +21,7 @@
 (setq scroll-step 1)
 
 ;; Set cursor
-(setq-default cursor-type '(bar . 3))
+(blink-cursor-mode 0)
 
 ;; Indentation config
 (setq-default indent-tabs-mode nil)
@@ -62,9 +62,6 @@
 
 ;; No ESC as a modifier
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-
-;; Keybinding for commenting
-(global-set-key (kbd "C-*") 'comment-dwim)
 
 ;; Config for C
 (add-to-list 'auto-mode-alist '("\\.c\\'" . c-ts-mode))
@@ -120,6 +117,10 @@
   (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 2))
 
+;; Load iedit: https://github.com/victorhge/iedit
+(use-package iedit
+  :load-path "/home/ko/.emacs.d/iedit")
+
 ;; Custom variables
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -128,8 +129,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(dark-emacs))
  '(custom-safe-themes
-   '("ba4ab079778624e2eadbdc5d9345e6ada531dc3febeb24d257e6d31d5ed02577" default))
- '(package-selected-packages '(compat company auctex)))
+   '("96714bea01c6e9ca930e3305a7e7a7646e08d6ffff1386ff5c1396691d5fa6eb" default)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

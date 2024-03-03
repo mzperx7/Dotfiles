@@ -20,7 +20,7 @@
    ;; Basic Coloring
    `(border ((t ,(list :background ok-bg-1 :foreground ok-bg-2))))
    `(default ((t ,(list :foreground ok-fg-2 :background ok-bg-1))))
-   `(cursor ((t (:background ,ok-fg-3))))
+   `(cursor ((t (:background ,ok-green))))
    `(fringe ((t (:foreground ,ok-cyan))))
    `(vertical-border ((t ,(list :foreground ok-fg-2))))
    `(link ((t (:foreground ,ok-green :underline t))))
