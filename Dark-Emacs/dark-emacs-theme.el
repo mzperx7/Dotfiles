@@ -14,7 +14,7 @@
       (ok-yellow-2   "#d2c88e")
       (ok-cyan       "#017d8e"))
 
-  (custom-theme-set-variables 'dark-emacs '(frame-brackground-mode (quote dark)))
+  (custom-theme-set-variables 'dark-emacs '(frame-background-mode (quote dark)))
   (custom-theme-set-faces 'dark-emacs
 
    ;; Basic Coloring
@@ -28,8 +28,8 @@
    `(match ((t (:background ,ok-fg-3))))
    `(shadow ((t (:foreground ,ok-bg-3))))
    `(minibuffer-prompt ((t (:foreground ,ok-blue))))
-   `(region ((t (:background ,ok-bg-3))))
-   `(secondary-selection ((t (:background ,ok-bg-2))))
+   `(region ((t (:background ,ok-bg-2))))
+   `(secondary-selection ((t (:background ,ok-bg-3))))
    `(trailing-whitespace ((t ,(list :foreground ok-cyan :background ok-bg-1))))
 
    ;; Compilation
@@ -79,7 +79,7 @@
 
    ;; Line numbers
    `(line-number ((t (:inherit default :foreground ,ok-bg-2))))
-   `(line-number-current-line ((t (:inherit line-number :foreground ,ok-fg-3))))
+   `(line-number-current-line ((t (:inherit line-number :foreground ,ok-fg-2))))
 
    ;; Mode Line
    `(mode-line ((t ,(list :background ok-bg-2 :foreground ok-fg-2))))
@@ -93,7 +93,7 @@
    `(set-face-attribute 'lazy-highlight nil :foreground ok-fg-2 :background ok-bg-3)
 
    ;; Show Paren
-   `(show-paren-match ((t (:background ,ok-bg-3))))
+   `(show-paren-match ((t (:background ,ok-blue))))
    `(show-paren-mismatch ((t (:background ,ok-red-2))))
 
    ;; AUCTeX
