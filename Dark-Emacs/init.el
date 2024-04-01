@@ -60,6 +60,13 @@
 ;; CUA mode
 (cua-mode t)
 
+;; Disable eldoc
+(add-hook
+ 'eglot-managed-mode-hook
+ (lambda () (eldoc-mode -1)))
+;; Display on demand
+(keymap-global-set "C-d" 'eldoc)
+
 ;; No ESC as a modifier
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
@@ -121,6 +128,11 @@
 (use-package iedit
   :load-path "/home/ko/.emacs.d/iedit")
 
+;; Goto last change
+(use-package goto-chg)
+(keymap-global-set "C-." 'goto-last-change)
+(keymap-global-set "C-," 'goto-last-change-reverse)
+
 ;; Custom variables
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -129,7 +141,8 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(dark-emacs))
  '(custom-safe-themes
-   '("96714bea01c6e9ca930e3305a7e7a7646e08d6ffff1386ff5c1396691d5fa6eb" default)))
+   '("96714bea01c6e9ca930e3305a7e7a7646e08d6ffff1386ff5c1396691d5fa6eb" default))
+ '(package-selected-packages '(goto-chg company)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
