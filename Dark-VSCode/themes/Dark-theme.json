@@ -707,8 +707,7 @@
 				"keyword.control.directive.endif.cpp"
 			],
 			"settings": {
-				"foreground": "#6c7d8e",
-				"fontStyle": "bold"
+				"foreground": "#6c7d8e"
 			}
 		},
 		{
