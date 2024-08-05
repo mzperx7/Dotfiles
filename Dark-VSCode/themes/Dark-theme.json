@@ -128,7 +128,7 @@
 		"editorSuggestWidget.focusHighlightForeground": "#b3b8c2",
 		"editorSuggestWidget.foreground": "#b3b8c2",
 		"editorSuggestWidget.highlightForeground": "#b3b8c2",
-		"editorSuggestWidget.selectedBackground": "#49505e",
+		"editorSuggestWidget.selectedBackground": "#6c7d8e",
 		"editorSuggestWidget.selectedForeground": "#0e1014",
 		"editorWarning.border": "#6c7d8e",
 		"editorWarning.foreground": "#6c7d8e",
@@ -439,17 +439,15 @@
                 "entity.name.tag",
 				"entity.name.type.class",
 				"entity.name.type.enum",
-                "entity.name.function.c"
+                "entity.name.function.c",
+                "entity.name.function.preprocessor.c"
 			],
 			"settings": {
 				"foreground": "#b3b8c2"
 			}
 		},
         {
-			"scope": [
-                "entity.name.type",
-                "entity.name.function.preprocessor.c"
-            ],
+			"scope": "entity.name.type",
 			"settings": {
 				"foreground": "#6c7d8e"
 			}
@@ -473,20 +471,20 @@
 			}
 		},
 		{
-			"scope": "invalid.illegal.placeholder",
+			"scope": [
+                "invalid.illegal.placeholder",
+                "invalid.illegal.stray-else.c",
+                "invalid.illegal.stray-endif.c",
+            ],
 			"settings": {
-				"foreground": "#d2c88e"
+				"foreground": "#6c7d8e"
 			}
 		},
 		{
 			"scope": [
                 "keyword",
                 "keyword.control",
-                "keyword.other.typedef",
-                "keyword.other.unit.suffix.integer.c",
-                "keyword.other.unit.suffix.floating-point.c",
-                "keyword.other.unit.hexadecimal.c",
-                "keyword.other.unit.exponent.decimal.c"
+                "keyword.other.typedef"
             ],
 			"settings": {
 				"foreground": "#6c7d8e"
@@ -500,6 +498,17 @@
 		},
         {
         "scope": "keyword.operator.sizeof.c",
+			"settings": {
+				"foreground": "#b3b8c2"
+			}
+		},
+        {
+            "scope": [
+                "keyword.other.unit.suffix.floating-point.c",
+                "keyword.other.unit.suffix.integer.c",
+                "keyword.other.unit.hexadecimal.c",
+                "keyword.other.unit.exponent.decimal.c"
+            ],
 			"settings": {
 				"foreground": "#b3b8c2"
 			}
@@ -678,11 +687,13 @@
                 "string.quoted.other.lt-gt.include.cpp"
 			],
 			"settings": {
-				"foreground": "#d2c88e"
+				"foreground": "#b3b8c2"
 			}
 		},
 		{
 			"scope": [
+                "keyword.control.directive.conditional.cpp",
+                "keyword.control.directive.conditional.c",
 				"keyword.control.directive.define.cpp",
 				"keyword.control.directive.define.c",
 				"keyword.control.directive.include.cpp",
@@ -707,7 +718,8 @@
 				"keyword.control.directive.endif.cpp"
 			],
 			"settings": {
-				"foreground": "#6c7d8e"
+				"foreground": "#6c7d8e",
+				"fontStyle": "bold"
 			}
 		},
 		{
