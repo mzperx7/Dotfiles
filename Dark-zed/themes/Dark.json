@@ -26,31 +26,31 @@
         "error": "#800000",
         "error.background": "#1b262e",
         "error.border": "#1b262e",
-        "drop_target.background": "#24323e",
+        "drop_target.background": "#2d3f4d",
         "editor.foreground": "#a7b5c4",
         "editor.background": "#12191f",
         "editor.gutter.background": "#12191f",
         "editor.subheader.background": "#1b262e",
         "editor.active_line.background": "#00000000",
         "editor.highlighted_line.background": "#1b262e",
-        "editor.line_number": "#24323e",
+        "editor.line_number": "#2d3f4d",
         "editor.active_line_number": "#a7b5c4",
-        "editor.invisible": "#414c6a",
-        "editor.wrap_guide": "#414c6a",
-        "editor.active_wrap_guide": "#414c6a",
+        "editor.invisible": "#6e879d",
+        "editor.wrap_guide": "#6e879d",
+        "editor.active_wrap_guide": "#6e879d",
         "editor.document_highlight.read_background": "#00000000",
         "editor.document_highlight.write_background": null,
         "element.active": "#51718b",
         "element.background": "#00000000",
         "element.disabled": "#12191f",
         "element.hover": "#364b5c",
-        "element.selected": "#24323e",
+        "element.selected": "#2d3f4d",
         "elevated_surface.background": "#1b262e",
         "ghost_element.active": "#51718b",
         "ghost_element.background": "#1b262e",
         "ghost_element.disabled": "#12191f",
         "ghost_element.hover": "#364b5c",
-        "ghost_element.selected": "#24323e",
+        "ghost_element.selected": "#2d3f4d",
         "hidden": "#51718b",
         "hidden.background": "#1b262e",
         "hidden.border": null,
@@ -83,7 +83,7 @@
         "renamed.border": null,
         "scrollbar.thumb.border": "#00000000",
         "scrollbar.thumb.hover_background": "#364b5c",
-        "scrollbar.track.background": "#24323e",
+        "scrollbar.track.background": "#2d3f4d",
         "scrollbar.track.border": "#00000000",
         "scrollbar_thumb.background": "#3f586c80",
         "search.match_background": "#364b5c",
@@ -91,8 +91,8 @@
         "success": "#7ca977",
         "success.background": null,
         "success.border": null,
-        "surface.background": "#24323e",
-        "tab.active_background": "#24323e",
+        "surface.background": "#2d3f4d",
+        "tab.active_background": "#2d3f4d",
         "tab.inactive_background": "#12191f",
         "tab_bar.background": "#12191f",
         "title_bar.background": "#12191f",
@@ -101,7 +101,7 @@
         "terminal.bright_foreground": "#a7b5c4",
         "terminal.dim_foreground": "#a7b5c4",
         "terminal.ansi.black": "12191f",
-        "terminal.ansi.bright_black": "#24323e",
+        "terminal.ansi.bright_black": "#2d3f4d",
         "terminal.ansi.dim_black": "#1b262e",
         "terminal.ansi.red": "#800000",
         "terminal.ansi.bright_red": "#800000",
@@ -109,15 +109,15 @@
         "terminal.ansi.green": "#738678",
         "terminal.ansi.bright_green": "#738678",
         "terminal.ansi.dim_green": "#738678",
-        "terminal.ansi.yellow": "#d2c88c",
-        "terminal.ansi.bright_yellow": "#d2c88c",
-        "terminal.ansi.dim_yellow": "#d2c88c",
+        "terminal.ansi.yellow": "#cbc395",
+        "terminal.ansi.bright_yellow": "#cbc395",
+        "terminal.ansi.dim_yellow": "#cbc395",
         "terminal.ansi.blue": "#005580",
         "terminal.ansi.bright_blue": "#005580",
         "terminal.ansi.dim_blue": "#005580",
-        "terminal.ansi.magenta": "#414c6a",
-        "terminal.ansi.bright_magenta": "#414c6a",
-        "terminal.ansi.dim_magenta": "#414c6a",
+        "terminal.ansi.magenta": "#e6e6fa",
+        "terminal.ansi.bright_magenta": "#e6e6fa",
+        "terminal.ansi.dim_magenta": "#e6e6fa",
         "terminal.ansi.cyan": "#008078",
         "terminal.ansi.bright_cyan": "#008078",
         "terminal.ansi.dim_cyan": "#008078",
@@ -140,7 +140,7 @@
           {
             "cursor": "#e1e6eb",
             "background": "#12191f",
-            "selection": "#24323e80"
+            "selection": "#e6e6fa22"
           }
         ],
         "syntax": {
@@ -205,52 +205,52 @@
             "font_weight": null
           },
           "number": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "operator": {
-            "color": "e1e6eb",
+            "color": "#e1e6eb",
             "font_style": null,
             "font_weight": null
           },
           "string": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "string.escape": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "string.regex": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "string.special": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "string.special.symbol": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "tag": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "text.literal": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
           "title": {
-            "color": "#d2c88c",
+            "color": "#cbc395",
             "font_style": null,
             "font_weight": null
           },
@@ -362,7 +362,7 @@
         },
         "status_bar.foreground": "#a7b5c4",
         "tab.active_foreground": "#a7b5c4",
-        "terminal.ansi.amber": "#d2c88c"
+        "terminal.ansi.amber": "#cbc395"
       }
     }
   ]
