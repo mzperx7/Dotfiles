@@ -1,3 +1,3 @@
 # Dark theme
 Dark theme with focus on C.
-Modified Zed theme for my monitor.
+Modified VS Code and Zed theme for my monitor.
