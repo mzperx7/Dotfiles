@@ -1,0 +1,26 @@
+{
+	"name": "Blue wheat",
+	"displayName": "Blue wheat",
+	"description": "Blue wheat dark color theme",
+	"publisher": "OK",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/mzperx7/Dotfiles/Blue-VSCode"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/blue-theme.json"
+			}
+		]
+	}
+}
